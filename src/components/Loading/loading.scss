@@ -1,0 +1,17 @@
+.loading {
+    margin: 0px 50% 0px 50%;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border : solid 20px black;
+    border-top-color: #87decdff ;
+    position: absolute; 
+    z-index: 10;
+    background: none;
+
+    animation : putar 1s linear infinite;
+};
+
+@keyframes putar{
+    to{transform: rotate(360deg)}
+    };

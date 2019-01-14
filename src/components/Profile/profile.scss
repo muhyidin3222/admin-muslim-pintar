@@ -1,0 +1,37 @@
+.profile{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+
+    .photo{
+        width: 100%;
+        height: auto;
+    };
+
+    .account{
+        size: 30px;
+        font-weight: 700;
+    };
+
+    .logout{
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 550;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+        color: white;
+        border-radius: 20px;
+        border: transparent ;
+        display: grid;
+        width: 100%;
+        outline: none;
+        background-color: rgb(241, 44, 44);
+        
+    };
+
+    .logout:hover{
+        filter: brightness(1.7);
+    };
+};
